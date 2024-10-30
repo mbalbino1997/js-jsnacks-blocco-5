@@ -12,3 +12,10 @@ const zucchine = [
 ];
 
 // A partire dall'array fornito, crea due array. Uno con le zucchine più lunghe di almeno 15cm. L'altro con le restanti.
+const longMarrow = [];
+const shortMarrow = [];
+zucchine.forEach(zucchina => {
+  if (zucchina.length>=15) longMarrow.push(zucchina);
+    else shortMarrow.push(zucchina);
+});
+console.log(longMarrow, shortMarrow);
