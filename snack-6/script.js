@@ -15,7 +15,7 @@ const zucchine = [
 const longMarrow = [];
 const shortMarrow = [];
 zucchine.forEach(zucchina => {
-  if (zucchina.length>=15) longMarrow.push(zucchina);
-    else shortMarrow.push(zucchina);
+  if (zucchina.length >= 15) longMarrow.push(zucchina);
+  else shortMarrow.push(zucchina);
 });
-console.log(longMarrow, shortMarrow);
+console.log(longMarrow, shortMarrow);                           
